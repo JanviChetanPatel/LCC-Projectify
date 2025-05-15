@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+body {
+  margin: 0;
+  background-color: rgb(5, 7, 99);
+}
+
+.todos-bg-container {
+  background-color:rgb(5, 7, 99);
+}
+
+.mini-container{
+  height: auto;
+border-radius: 25px;
+border-width: 0px;
+border-style: solid;
+border-color: rgba(143, 202, 250, 0.4);
+background-color: rgba(143, 202, 250, 0.4);
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+margin-top:15vh;
+max-width: 600px;
+margin: 10vh auto;
+padding: 20px;
+}
+
+.todos-heading {
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.create-task-heading {
+  font-family: 'Pacifico', cursive;
+  color: white;
+  font-size: 27px;
+  font-weight: 700;
+  margin-left: 15px;
+  margin-top: 30px;
+}
+
+.create-task-heading-subpart {
+  font-family: 'Pacifico', cursive;
+  color: white;
+  font-size: 30px;
+  font-weight: 200;
+}
+
+.todo-items-heading {
+  font-family: 'Pacifico', cursive;
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+  margin-left: 15px;
+}
+
+.todo-items-heading-subpart {
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+  font-weight: 200;
+}
+
+.todo-items-container {
+  margin: 10px;
+  padding: 10px;
+}
+
+.todo-item-container {
+  margin-top: 15px;
+}
+
+.todo-user-input {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 95%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e4e7eb;
+  border-radius: 10px;
+  margin-top: 5px;
+  padding: 15px;
+  margin-left: 15px;
+}
+
+.button {
+  color: black;
+  background-color: rgba(254, 254, 89, 0.8);
+  font-family: 'Pacifico', cursive;
+  font-size: 18px;
+  border-width: 0px;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  margin-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.label-container {
+  background-color:rgba(255, 255, 255, 0.8);
+  width: 100%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(5, 7, 99);
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  border-radius: 4px;
+}
+
+.checkbox-input {
+  width: 20px;
+  height: 20px;
+  margin-top: 12px;
+  margin-right: 12px;
+  background-color: yellow;
+}
+
+.checkbox-label {
+  font-family: 'Pacifico', cursive;
+  font-size: 16px;
+  font-weight: 400;
+  width: 82%;
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+}
+
+.delete-icon-container {
+  text-align: right;
+  width: 18%;
+}
+
+.delete-icon {
+  padding: 15px;
+  
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+#noTasksMessage {
+    color: yellow;
+}
+
+#currentDate {
+  font-size: 18px;
+  font-family: 'Pacifico', cursive;
+  color: white;
+}
